@@ -47,7 +47,7 @@ export function Hero() {
                 Contact Me
               </a>
               <a
-                href="/Gokul_resume_1.pdf"
+                href="https://n-gokulnath.github.io/gokulnath-n/Gokul_resume_1.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 px-6 text-[14px] font-medium text-white transition-all hover:bg-white/20 hover:border-white/30 hover:-translate-y-0.5 active:translate-y-0"

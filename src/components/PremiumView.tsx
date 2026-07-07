@@ -8,11 +8,13 @@ import { Contact } from "./sections/Contact";
 import { DynamicBackground } from "./DynamicBackground";
 import { BackgroundProvider } from "./BackgroundContext";
 import { Navigation } from "./Navigation";
+import { CustomCursor } from "./CustomCursor";
 
 export function PremiumView() {
   return (
     <BackgroundProvider>
-      <div className="dark min-h-screen font-sans">
+      <div className="dark min-h-screen font-sans cursor-none">
+        <CustomCursor />
         <DynamicBackground />
         <Navigation />
         
